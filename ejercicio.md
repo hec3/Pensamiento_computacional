@@ -33,3 +33,21 @@ Algoritmo sin_titulo
 		escribir "El alumno ", nombre_al, " esta reprobado con un promedio de ", promedio
 	Fin Si
 FinAlgoritmo 
+
+
+### calcular el radio
+
+	Funcion  Saludar ( )
+		Escribir "Vienvenido  a la calculadora de areas "
+	Fin Funcion
+
+	Funcion area <- Num ( radio )
+		area<-PI*radio^2
+	Fin Funcion
+
+	Algoritmo sin_titulo
+		Definir r Como Real
+		Escribir " Ingresa el radio del circulo "
+		Leer r
+		Escribir "El area del circulo es ",redon(Num(r))
+	FinAlgoritmo
